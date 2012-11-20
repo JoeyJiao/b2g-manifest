@@ -5,6 +5,8 @@
            fetch="https://android.googlesource.com/" />
   <remote name="b2g"
           fetch="git://github.com/mozilla-b2g/" />
+  <remote name="b2g-qcom"
+          fetch="git://github.com/JoeyJiao/" />
   <remote  name="linaro"
            fetch="git://android.git.linaro.org/" />
   <remote name="mozilla"
@@ -92,8 +94,8 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
 
-  <!-- Galaxy S2 things -->
-  <project path="device/samsung/galaxys2" name="android-device-galaxys2" remote="b2g" revision="master" />
+  <!-- sku5 things -->
+  <project path="device/qcom/sku5" name="android-device-sku5" remote="b2g-qcom" revision="master" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="external/skia" name="skia-b2g-sgs2" remote="b2g" revision="master" />
 
